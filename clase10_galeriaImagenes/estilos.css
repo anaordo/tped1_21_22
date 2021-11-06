@@ -1,0 +1,70 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(136, 118, 80);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: rgb(59, 59, 59);
+    margin: 0;
+}
+
+#espacio_izqu{
+    width: 50%;
+    height: 100vh;
+    /*background-color:yellow ;*/
+    float: left;
+    padding: 200px 30px;
+}
+
+#galeria_imagenes{
+    width: 50%;
+    height: 100vh;
+   /* background-color: rgb(252, 238, 52);*/
+    float: right;
+    padding: 30px;
+}
+
+img.imagen_miniatura{
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 2px;
+    padding: 5px;
+    width: 260px;
+    /*height: 180px;*/
+    filter: saturate(0);
+}
+
+img.imagen_miniatura:hover {
+    
+    filter: saturate(1);
+    box-shadow: 0 0 3px 4px rgba(251, 255, 3, 0.596);
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 5em;
+}
+
+ul{
+    list-style: circle;
+}
