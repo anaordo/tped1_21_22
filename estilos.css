@@ -1,21 +1,52 @@
 body{
-    background-color: rgb(110, 110, 110);
-    color: white;
+    background-color: rgb(34, 34, 34);
     box-sizing: border-box;
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#indice_paginas{
+    width: 90%;
+    height: auto;
+    margin: 2%;
+    padding: 10px 30px 30px 30px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
 
 a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
     text-decoration: underline 5px dotted rgb(248, 155, 228);
-    color: white;
+    font-size: 1.1em;
 }
 
 h1{
     font-size: 3em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul{
-    list-style: circle;
+    list-style: none;
     line-height: 30px;
+}
+
+ol a{
+    background-color: rgb(255, 180, 153);
+    padding: 2px;
+    font-weight: bolder;
+}
+
+h2::first-letter{
+    font-size: 1.8em;
+}
+
+h3{
+    text-align: center;
+    margin-top: -30px;
 }
