@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a.enlace_azul{
+    color: rgb(0, 162, 255);
+}
+
+a:hover{
+    
+    color: rgb(252, 56, 164);
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#contenedor_principal{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(img/fondo-1400x860.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+/*  CABECERA  */
+
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between
+}
+
+div.contenedor_cabecera_iz{
+    width: 20%;
+}
+div.contenedor_cabecera_dcha{
+    width: 80%;
+}
+
+img.logo_adobe{
+    height: 100px;
+    position: relative;
+    left: 100px;
+}
+
+#lista_menu_header{
+    color: rgb(224, 224, 224);
+    list-style: none;
+    padding: 20px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#lista_menu_header li{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+#boton_azul{
+    width: 145px;
+    height: auto;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(0, 162, 255);
+    color: white;
+    border-radius: 5px;
+}
+
+#boton_azul p{
+    margin-top: 0px;
+    text-align: center;
+}
+
+/*  CONTENIDO E INFORMACION*/
+
+.bloque_info_izq{
+    width: 35%;
+    height: auto;
+    margin: 50px 0 0 100px;
+}
+
+p{
+    margin-top: 20px;
+}
+
+.bloque_info_dcha{
+    width: 50%;
+    min-height: 80px;
+    margin: 50px 0px 0 0;
+    position: absolute;
+    right: 0px;
+}
+
+section h3{
+   margin-bottom: 10px;
+}
+
+hr{
+    height: 1.5px;
+    width: 90%;
+    border-width:0;
+    color:rgb(0, 0, 0);
+    background-color:rgb(0, 0, 0);
+}
+
+#info_construccion{
+    vertical-align: middle;
+}
+
+/*Maquetacion del footer*/
+
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(41, 41, 41);
+    position: relative;
+    bottom: 0px;
+}
+
+span{
+    color: yellow;
+}
+
+footer p{
+    color: white;
+    margin: 0;
+    padding: 30px 0 20px 100px;
+}
