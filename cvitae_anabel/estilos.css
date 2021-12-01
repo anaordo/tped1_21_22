@@ -12,8 +12,8 @@ a{
 
 a:hover{
     position: relative;
-    left: 15px;
-    font-weight: bold;
+    /*left: 15px;*/
+    font-weight: 600;
 }
 
 
@@ -31,18 +31,22 @@ a:hover{
 
 nav{
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between
 }
 
 #marca_nombre{
     font-size: 2em;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(255, 0, 98);
-    padding: 20px 50px;
+    padding: 20px 10px 20px 50px;
     /*background-color: royalblue;*/
 }
 
 #menu_superior{
-    width: 85%;
+    width: 65%;
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -81,7 +85,7 @@ li.boton1{
 #escaparate_izquierda{
     width: 45%;
     height: 550px;
-    background-color: rgb(207, 205, 205);
+    background-color: rgb(187, 187, 187);
     border-radius: 20px;
     display: flex;
     z-index: 1;    
@@ -91,7 +95,8 @@ li.boton1{
     width: 95%;
     height: 90%;
     margin: auto;
-    background-image: url(img/telefono.png);
+    border-radius: 50px;
+    background-image: url(img/portfolio-imagen.jpg);
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
@@ -127,8 +132,9 @@ h1{
 }
 
 p.parrafo_gris{
-    color: grey;
-    line-height: 2em;
+    color: rgb(85, 85, 85);
+    line-height: 1.8em;
+    font-size: 0.9em ;
 }
 
 #botonera-inferior{
