@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    position: relative;
+    left: 15px;
+    font-weight: bold;
+}
+
+
+#contenedor_principal{
+    width: 96%;
+    margin: 1% auto 3% auto;
+    min-height: 96vh;
+    background-color: rgb(253, 203, 211);
+    border-radius: 35px;
+    z-index: -1;
+}
+
+
+/* BARRA SUPERIOR DE NAVEGACIÓN  */
+
+nav{
+    display: flex;
+}
+
+#marca_nombre{
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 0, 98);
+    padding: 20px 50px;
+    /*background-color: royalblue;*/
+}
+
+#menu_superior{
+    width: 85%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    z-index: 1;
+    
+    /*background-color: purple;*/
+}
+
+#menu_superior li{
+    padding: 10px;
+    list-style: none;
+}
+
+li.boton1{
+    background-color: rgb(255, 0, 98);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
+/* ESCAPARATE - CONTENEDOR INFERIOR */
+
+/* ESCAPARATE IZQUIERDA */
+
+#escaparate{
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+   /* background-color: royalblue;*/
+}
+
+#escaparate_izquierda{
+    width: 45%;
+    height: 550px;
+    background-color: rgb(207, 205, 205);
+    border-radius: 20px;
+    display: flex;
+    z-index: 1;    
+}
+
+#imagen_telefono{
+    width: 95%;
+    height: 90%;
+    margin: auto;
+    background-image: url(img/telefono.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+}
+
+
+
+/*  ESCAPARATE DERECHA*/
+
+#escaparate_derecha{
+    width: 55%;
+    height: 550px;
+    padding: 100px 70px;
+    /*background-color: rgb(75, 25, 255);*/   
+    z-index: 1;
+}
+#cuenta_atras{
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    display: inline-block;
+}
+
+span{
+    font-size: smaller;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 2em;
+    padding: 30px 0;
+}
+
+p.parrafo_gris{
+    color: grey;
+    line-height: 2em;
+}
+
+#botonera-inferior{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+#boton2{
+    width: 50%;
+    height: 50px;
+    background-color:  rgb(255, 0, 98); 
+    border-radius: 5px;
+    padding: 14px;
+    margin: 35px 0;
+    text-align: center;
+}
+
+#boton3{
+    width: 50%;
+    height: 50px; 
+    padding: 14px;
+    margin: 35px 0;
+    text-align: center;
+}
+
+/* decoracion circulo superior derecha*/
+
+#circulo-deco{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 80vh;
+    width: 60vw;
+    border-radius: 0 0 0 100%;
+    background-color: white;
+    z-index: 1;
+    
+}
