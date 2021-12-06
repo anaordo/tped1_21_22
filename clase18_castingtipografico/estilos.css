@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*FUENTES*/
+
+@font-face {
+    font-family: miPrimeraFuente;
+    src: url(fonts/Monoton-Regular.ttf);
+  }
+
+i.fas{
+    padding: 20px 0 0 0;
+}
+
+h1{
+    font-family: 'Rye', serif;
+    text-align: center;
+    padding: 50px 0 20px 0;
+    font-size: 4em;
+    font-weight: 100;
+    color: whitesmoke;
+    background-color: rgb(0, 0, 102);
+}
+
+h1 ~ h2{
+    font-family: miPrimeraFuente, serif;
+    text-align: center;
+    padding: 10px 0 20px 0;
+    font-size: 2em;
+    font-weight: 100;
+    color: whitesmoke;
+    background-color: rgb(0, 0, 102);
+}
+
+div.cinzel{
+    font-family: 'Cinzel', serif;
+}
+
+div.maquina{
+    font-family: 'Special Elite', serif;
+}
+
+div.redacted{
+    font-family: 'Redacted Script', cursive;
+}
+
+div.game{
+    font-family: 'Press Start 2P', cursive;
+}
+
+div.pluma{
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 1.5em;
+}
+
+div.terremoto{
+    font-family: 'Road Rage', cursive;
+    font-size: 1.5em;
+}
+
+div.baile{
+   font-family: 'Playball', cursive;
+   font-size: 1.5em;
+}
+
+div.bebe{
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5em;
+ }
+
+div.comic{
+    font-family: 'Bangers', cursive;
+    font-size: 1.5em;
+ }
+
+
+
+/*CONTENIDO*/
+body{
+    background-color: rgb(0, 0, 102);
+}
+#contenedor_principal{
+    min-height: 100vh;
+    width: 90vw;
+    margin: 3% auto;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 73);
+    border-radius: 5%;
+}
+
+.bloque-tipografia{
+    height: auto;
+    width: 30% ;
+    margin: 1%;
+    padding: 2%;
+    background-color: rgb(118, 118, 255);
+    color: white;
+    border: 6px dashed rgb(255, 255, 255);
+    border-radius: 5%;
+}
