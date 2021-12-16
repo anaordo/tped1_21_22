@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family:Verdana;
+  color:#aaaaaa;
+}
+
+header{
+  /*background-color:#e5e5e5;*/
+  padding:15px;
+  text-align:center;
+}
+
+#cuerpo_central{
+  overflow:auto;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a {
+  background-color: #e5e5e5;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+#galeria_ultimos_trabajos{
+  /*width: 100%;*/
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*background-color: grey;*/
+}
+
+.img_galeria{
+  height: 48%;
+  margin: 1%;
+}
+
+#foto1{
+  background-image: url(img/Barbara_tejado-150ppp-marrones.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  width: 63%;
+}
+
+#foto2{
+  background-image: url(img/noche-blanco-cartel-mockup2-600px.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  width: 33%;
+}
+
+#foto3{
+  background-image: url(img/lifestyle-roadtriptravel-logotipo500.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  width: 53%;
+
+}
+
+#foto4{
+  background-image: url(img/a4_etiqueta_pp.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  width: 43%;
+}
+
+.right {
+  background-color: #e5e5e5;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+footer{
+  background-color:#e5e5e5;
+  text-align:center;
+  padding:10px;
+  margin-top:7px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Para:iPhone 5 Vertical-iPhone 5 Horizontal-iPad Vertical */
+  .menu, .main, .right {
+    width: 100%;
+  }
+
+ #galeria_ultimos_trabajos{
+   height: 300vh;
+ }
+
+  #galeria_ultimos_trabajos{
+    flex-direction: column;
+    flex-wrap: nowrap
+  }
+
+  #foto1, #foto2 ,#foto3, #foto4{
+    height: 100%;
+    width: 100%;
+  }
+  
+}
