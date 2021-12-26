@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+#main-wrap{
+    min-height: 90vh;
+    /*background-color: greenyellow;*/
+  }
+
+#menu a{
+    color: rgb(33, 136, 56) !important;
+  }
+
+nav{
+ margin-top: 10px;
+ /*background-color: rgb(255, 172, 47);*/
+}
+
+#logotipo{
+  min-height: 60px;
+  background-image: url(img/logo.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#iniciarsesion, #menu{
+  color: rgb(33, 136, 56);
+  font-size: 0.9em;
+}
+
+#iniciarsesion{
+  padding-top: 15px;
+ /* background-color: rgb(255, 54, 47);*/
+}
+
+#menu{
+ /*background-color: rgb(47, 85, 255);*/
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.redondo{
+  border-radius: 50px !important;
+}
