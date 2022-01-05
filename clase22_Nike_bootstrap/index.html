@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Clase 22 - Nike Digital con Bootstrap</title>
+        <link rel="stylesheet" href="estilos.css">
+
+        <!-- Bootstrap CSS --> 
+
+       <!--Etiquetas copiadas de W3School -->
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    </head>
+
+    <body>
+    <div id="maincontainer" class="container-fluid">
+    
+        <div class="row" style="position: relative;">
+            <!-- Titulo de la web -->
+            <div id="lista-cabecera">
+                <p><a href="#cuerpo-informacion">Nike Digital</a> | <a href="#enlaces-interesantes">Team</a></p>
+            </div> 
+
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul id="lista_menu" class="navbar-nav justify-content-around" style="width: 100%;">
+                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Catálogo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Outlet</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+
+
+        <!-- Nuevo Carrusel -->
+        <div class="row">
+            <div class="col-12">
+        <div id="frontal1" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#frontal1" data-slide-to="0" class="active"></li>
+                <li data-target="#frontal1" data-slide-to="1"></li>
+                <li data-target="#frontal1" data-slide-to="2"></li>
+            </ul>    
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/fondo.jpg" alt="Sport1" >
+                </div>
+                <div class="carousel-item">
+                    <img src="img/yoga-2587066_1280.jpg" alt="Sport2" >
+                </div>
+                <div class="carousel-item">
+                    <img src="img/running-6252827_1280.jpg" alt="Sport3" >
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#frontal1" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#frontal1" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        </div> 
+        </div>
+
+        <div class="row">
+        <div id="cuerpo" class="col-12">
+            <a name="cuerpo-informacion"></a>
+
+            <h1>Nike <br> Digital</h1>
+            <h2>Product Vision & Design</h2>
+
+            <p class="pseparado">Since 2017, our team has...bla bla bla... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae obcaecati magnam nihil reiciendis? Hic, pariatur suscipit nesciunt nihil aut vitae natus atque recusandae libero nostrum, est deleniti eum consequatur vero? </p>
+    
+            <p>Nike's rapid pace in iinovation...bla bla bla... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos voluptatem omnis ratione maxime quis numquam quisquam aut corrupti? Inventore et veniam blanditiis quae impedit. Amet necessitatibus placeat minima voluptate hic.</p>
+        </div>
+
+        
+        <div id="bloquelista" class="col-12">
+           <ul>
+              <li><a href="#">Director de arte</a></li>
+              <li><a href="https://www.easda.es">Visual Design</a></li>
+              <li><a href="https://www.easda.es" target="_blank">Interaction Design</a></li>
+              <li><a href="./img/fondo.jpg" target="_blank">Experience Design</a></li>
+               <li><a href="#">Motion Design</a></li>
+              <li>Prototyping</li>
+            </ul>
+        </div>
+        </div>
+
+    <div class="row">
+    <footer id="piepagina" class="col-sm-12 footer bg-dark ">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark ">
+            <ul class="navbar-nav justify-content-around" style="width: 100%;" >
+                <li class="nav-item">Proyectos</li>
+                <li class="nav-item">Estudio</li>
+                <li class="nav-item">Noticias</li>
+                <li class="nav-item">Carreras</li>
+                <li class="nav-item">Contacto</li>
+            </ul>  
+        </nav>
+    </footer>
+    </div>
+
+</div>            
+</body>
+</html>
