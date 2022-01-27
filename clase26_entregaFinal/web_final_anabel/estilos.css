@@ -1,0 +1,60 @@
+
+/*font-family: 'Hind Madurai', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;*/
+
+body{
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+h1{
+    font-family: 'Lora', serif;
+    font-style: italic;
+  
+    color: rgb(255, 196, 169);
+    font-weight: bold;
+}
+
+footer a{
+   color: rgb(255, 196, 169);
+}
+
+a:hover{
+    color: rgb(255, 196, 169) !important;
+}
+
+h2, h3{
+    
+    color: rgb(100, 100, 100);
+}
+
+h5{
+    font-family: 'Lora', serif;
+    font-style: italic;
+}
+#tarjeta-presentacion{
+    background-image: url(img/pattern_snn.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.fondo-transparente{
+    background-color: rgba(255, 255, 255, 0.76);
+}
+
+h6{
+    color: rgb(255, 196, 169);
+}
+
+div.textopequeño{
+    font-size: 0.8em;
+}
+
+#lista-empleos{
+    list-style: none;
+}
+
+a.textoblanco{
+    text-decoration: none;
+    color: white;
+}
