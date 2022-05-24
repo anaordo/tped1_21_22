@@ -153,8 +153,8 @@ h4{
 #contenedor-video{
     min-height: 70vh;
    /* background-color: #ff9e40;*/
-    background-color: #fbc894;
-    border: 1px solid rgba(0,0,0,.125);
+    background-color: #1D6F5B;
+    /*border: 1px solid rgba(0,0,0,.125);*/
     padding: 8%;
 }
 
@@ -177,8 +177,8 @@ h4{
 #bloque-video{
     min-height: 60vh;
     background-color: #ffffff;
-    border: 1px solid rgba(0,0,0,.125);
-    border-radius: 25px;
+    border: 1px solid #002924;
+    /*border-radius: 25px;*/
 }
 
 
